@@ -1,0 +1,218 @@
+#Profile{
+    width: 10rem;
+    background:#F4F4F4;
+    position: relative;
+    img{width: 100%}
+    .ant-row-flex{
+        width: 10rem;
+        height: 1.18rem;
+        font-size: .48rem;
+        color: #4a4a4a;
+        background-color: #59DAC5;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        word-break: keep-all;
+        text-overflow: ellipsis;
+        z-index: 1001;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        .ant-col-3,.ant-col-4{
+            .anticon{
+                font-size: .65rem;
+                color: #fff;
+                
+            }
+        }
+   }
+   .profileHeader{
+       background: url('https://asset.watsons.com.cn/h5/static/images/member/daytime/b076c715779ea5d69467646fc.png') no-repeat 100%;
+       background-size:100%; 
+       position: relative;
+       background-color: #59dac5;
+       width: 10rem;
+       height: 6.33333rem;
+       
+       .head_sculpture{
+            width: 1.8rem;
+            height: 1.8rem;
+            position: absolute;
+            left: 50%;
+            margin-left:-0.9rem ;
+            bottom: 2.46667rem;
+            border-radius: 50%;
+            background: url('https://image.watsons.com.cn/upload/hahy4f2323.png') no-repeat 100%;
+            background-size:100%; 
+       }
+        .userName{
+            position: absolute;
+            left: 50%;
+            bottom: 1.46667rem;
+            width:  1.8rem;
+            margin-left:-0.9rem ;
+            color: #fff;
+            font-size: .4rem;
+            text-align: center;
+        }
+        .toHomeBtn{
+            position: absolute;
+            right: 0;
+            bottom: .53333rem;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            justify-content: space-around;
+            height: .8rem;
+            line-height: .8rem;
+            padding-left: .26667rem;
+            padding-right: .18667rem;
+            background-color: #107d64;
+            color: #fff;
+            font-size: .34667rem;
+            border-top-left-radius: .4rem;
+            border-bottom-left-radius: .4rem;
+            .anticon-right{
+                font-size: 0.2rem;
+            }
+        }
+       .cloud1{
+            position: absolute;
+            top: 3.06667rem;
+            left: .8rem;
+            width: .66667rem;
+            height: .36rem;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAMAAAAJQix9AAAA1VBMVEX///////////////////////////9MaXH///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+SuzbOAAAAR3RSTlPmSpXdBcdQANfc1K4ieX3kxItNOD3DE0JmBIrNjw7MjhJ+HF8CJsuXxcpJsC+Wdz7jqq9xMxmfO1F/S2+T28HPFZDTD1K+4jz4QKAAAADPSURBVHjaldPXDoJAFEXRgwID2BXsvffee///T5JYotERuPs+r4dJ5oBxO50Pl+NV2a7nIvuOS/aLDV7tVlEHZKnhM21mS7r4qh+3IT78NrIkAjgFIhYkqoBXKv+fFPAnNegKizySccMiSXgTPWSo2jDZZjKs85cfxOvBs+kAduZOIgoICSbxkgQkEcwDWmHoIOZCiEqCMKhENY+Y2zxiEur05+eoRMaYKKoJsBqNNBlYUaEI3/1bVrKOQaD03Muk5VA0Yu+J9dKwryM/hnwDpiETNGULZewAAAAASUVORK5CYII=') no-repeat 100%;
+            background-size:100%; 
+       }
+       .cloud2{
+            position: absolute;
+            top: 2.73333rem;
+            right: 1.17333rem;
+            width: .64rem;
+            height: .30667rem;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAbCAMAAAAJQix9AAAA1VBMVEX///////////////////////////9MaXH///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+SuzbOAAAAR3RSTlPmSpXdBcdQANfc1K4ieX3kxItNOD3DE0JmBIrNjw7MjhJ+HF8CJsuXxcpJsC+Wdz7jqq9xMxmfO1F/S2+T28HPFZDTD1K+4jz4QKAAAADPSURBVHjaldPXDoJAFEXRgwID2BXsvffee///T5JYotERuPs+r4dJ5oBxO50Pl+NV2a7nIvuOS/aLDV7tVlEHZKnhM21mS7r4qh+3IT78NrIkAjgFIhYkqoBXKv+fFPAnNegKizySccMiSXgTPWSo2jDZZjKs85cfxOvBs+kAduZOIgoICSbxkgQkEcwDWmHoIOZCiEqCMKhENY+Y2zxiEur05+eoRMaYKKoJsBqNNBlYUaEI3/1bVrKOQaD03Muk5VA0Yu+J9dKwryM/hnwDpiETNGULZewAAAAASUVORK5CYII=') no-repeat 100%;
+            background-size:100%; 
+        }
+        .cloud3{
+            
+            position: absolute;
+            top: 1.6rem;
+            left: 2.33333rem;
+            width: .50667rem;
+            height: .24rem;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAASCAYAAAA31qwVAAAA70lEQVR42s3Uv0rDUBSA8UDVqeBSpBAcAg5KurYvUDraF3BoJYubdhU6CGYKpaKbhHaokf7JEs8Dxu9CA0GQYGzCOfCDu52POxzrEJOmqYsJXrFBjHc84Mqqe1hqYw4p8Ai7rqgedhCg0BYXVYQc4WT/dhBD/ijC+SFi2vCwwNdeiAhS0uy/UQPEkAq4ZaP6kAr5GGKCKW7h/BbTxA0CJJCaJRjhOB91iSVEgfv8T60ginRNmAdRxjdhLwrD1lZ2vZX5NGFvCsOeTdidwrChCTvFWlHUHI3sZHTwoSAqwNnPy9/CGGHNMTGecI1G1vMNn2WeMaZYTK0AAAAASUVORK5CYII=') no-repeat 100%;
+            background-size:100%; 
+        }
+        .cloud4{
+            position: absolute;
+            top: 1.93333rem;
+            left: 5.73333rem;
+            width: .66667rem;
+            height: .36rem;
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAASCAYAAAA31qwVAAAA70lEQVR42s3Uv0rDUBSA8UDVqeBSpBAcAg5KurYvUDraF3BoJYubdhU6CGYKpaKbhHaokf7JEs8Dxu9CA0GQYGzCOfCDu52POxzrEJOmqYsJXrFBjHc84Mqqe1hqYw4p8Ai7rqgedhCg0BYXVYQc4WT/dhBD/ijC+SFi2vCwwNdeiAhS0uy/UQPEkAq4ZaP6kAr5GGKCKW7h/BbTxA0CJJCaJRjhOB91iSVEgfv8T60ginRNmAdRxjdhLwrD1lZ2vZX5NGFvCsOeTdidwrChCTvFWlHUHI3sZHTwoSAqwNnPy9/CGGHNMTGecI1G1vMNn2WeMaZYTK0AAAAASUVORK5CYII=') no-repeat 100%;
+            background-size:100%; 
+        }
+   }
+    .order_menu_wrap{
+        margin-bottom: .26667rem;
+        background-color: #fff;
+        .order_menu_title{
+            width: 9.2rem;
+            margin-left: auto;
+            margin-right: auto;
+            height: 1.33333rem;
+            line-height: 1.33333rem;
+            color: #4a4a4a;
+            font-size: .37333rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ECECE2; 
+            span{
+                &:nth-of-type(2){
+                    .anticon-right{
+                        font-size: 0.6rem;
+                        color:#E5E5E5;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+  
+        .order_menu_list{
+                display: flex;
+                font-size: .34667rem;
+            .order_menu{
+                    position: relative;
+                    flex: 1;
+                    padding: 1.46667rem 0 0.46rem;
+                    color: #919090;
+                    text-align: center;
+                    height: 2.26667rem;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                .order_menu_img{
+                        position: absolute;
+                        top: .53333rem;
+                        display: inline-block;
+                        width: .74667rem;
+                        height: .74667rem;
+                        img{
+                            width: 100%;
+                        }
+                }
+            }
+        }
+    }
+    .common_menu_wrap{
+        position: relative;
+        color: #919090;
+        background-color: #fff;
+        overflow: hidden;
+        img{width: 100%;}
+        .common_menu_title{
+            position: relative;
+            padding-left: .4rem;
+            height: .8rem;
+            line-height: .8rem;
+            font-size: .32rem;
+            border-bottom: 1px solid #ECECE2; 
+        }
+        p{margin-bottom: 0em;}
+        .common_menu_list{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            margin-bottom: 0em;
+            .common_menu{
+                height: 2.46667rem;
+                width: 2.5rem;
+                padding: 1.46667rem 0 0.46rem;
+                position: relative;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 1px solid #ECECE2; 
+                border-right: 1px solid #ECECE2; 
+                box-sizing: border-box;
+                .common_menu_img{
+                    position: absolute;
+                    top: .53333rem;
+                    display: inline-block;
+                    width: .74667rem;
+                    height: .74667rem;
+                }
+            }
+            
+        }
+    }
+}

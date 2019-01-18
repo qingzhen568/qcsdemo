@@ -1,0 +1,24 @@
+#HeaderTitle{
+    width: 10rem;
+    background:#fff;
+    img{width: 100%}
+    .Title{
+        width: 10rem;
+        height: 1.10667rem;
+        line-height: 1.10667rem;
+        font-size: .48rem;
+        color: #4a4a4a;
+        background-color: #fff;
+        text-align: center;
+        z-index: 1001;
+        border-bottom: 1px solid #eee;
+        .ant-row{
+            .ant-col-18{
+                overflow: hidden;
+                white-space: nowrap;
+                word-break: keep-all;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

@@ -1,0 +1,412 @@
+#shoppingCart{
+    background: #F4F4F4;
+    .Title{
+        width: 10rem;
+        height: 1.10667rem;
+        line-height: 1.10667rem;
+        font-size: .48rem;
+        color: #4a4a4a;
+        background-color: #fff;
+        text-align: center;
+        z-index: 1001;
+        border-bottom: 1px solid #eee;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        .ant-row{
+            .ant-col-17{
+                overflow: hidden;
+                white-space: nowrap;
+                word-break: keep-all;
+                text-overflow: ellipsis;
+            }
+            .ant-col-4{
+                font-size: .4rem;
+            }
+        }
+    }
+    .slogen_list{
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f4;
+        border-bottom: 1px solid #f4f4f4;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: .66667rem;
+            height: .96rem;
+            overflow: hidden;
+            white-space: nowrap;
+            word-break: keep-all;
+            text-overflow: ellipsis;
+            font-size: .34667rem;
+            color: #4a4a4a;
+            box-sizing: border-box;
+            img{
+                width: .4rem;
+                height: .4rem;
+            }
+            p{
+                margin-block-start: 0;
+                margin-block-end: 0;
+                
+            }
+        }
+    }
+    .top_notice{
+        padding: .4rem;
+        background-color: #fffbf5;
+        font-size: .34667rem;
+        color: #f7a358;
+        line-height: 1.4;
+        border-bottom: 1px solid #dad9d9;
+    }
+    //  购物车商品列表 
+    .trade_type_list{
+        .trade_type{
+            .trade_info{
+                border-bottom: 1px solid rgb(233, 233, 233);
+                padding: 0 .4rem;
+                height: 1.2rem;
+                line-height: 1.2rem;
+                background-color: #fff;
+                font-size: .34667rem;
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+                .checkbox_wrap{
+                    .ant-checkbox-wrapper{
+                        font-size: .32rem;
+                        color: #919090;
+                        .ant-checkbox{
+                            .ant-checkbox-inner {
+                                display: block;
+                                width: 16px;
+                                height: 16px;
+                                border-radius: 50%;
+                                border: 1px solid #919090;
+                                //点中全选时显示下面的:
+                                // border: 1px solid #3DCEC0;
+                                // background-color: #3DCEC0;
+                                -webkit-transition: all 0.3s;
+                                transition: all 0.3s;
+                                color: #fff;
+                                border-collapse: separate;
+                            }
+                        }
+                    }
+                }
+                .freeDelivery_orNot{
+                    color: #ff6692;
+                }
+            }
+            .group_list{
+                .item_listWrap{
+                    margin-bottom: .26667rem;
+                    background-color: #fff;
+                    .item_list{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin:0 auto;
+                        width: 9.2rem;
+                        height: 3.01333rem;
+                        position: relative;
+                        .ant-checkbox-wrapper{
+                            width: 1rem;
+                            height: 1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        .item_logo{
+                            img{
+                                display: block;
+                                width: 2.21333rem;
+                                height: 2.21333rem;
+                            }
+                        }
+                        .item_info{
+                            width: 6.33333rem;
+                            height: 2.21333rem;
+                            padding-right: .33333rem;
+                            margin-bottom: .16rem;
+                            .item_name{
+                                margin-bottom: .16rem;
+                                color: #4a4a4a;
+                                font-size: .32rem;
+                                overflow: hidden;
+                                white-space: normal;
+                                text-overflow: ellipsis;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 2;
+                            }
+                            .item_sku_list{
+                                margin-bottom: .16667rem;
+                                color: #919090;
+                                font-size: .32rem;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                word-break: keep-all;
+                                text-overflow: ellipsis;
+                            }
+                            .edit_wrap{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding:0 ;
+                                .delete_btn{
+                                    height: .48rem;
+                                    line-height: .48rem;
+                                    width: 1.30667rem;
+                                    font-size: .32rem;
+                                    color: #4a4a4a;
+                                    display: flex;
+                                    align-items: center;
+                                    img{
+                                        margin-right: .13333rem;
+                                        width: .48rem;
+                                        height: .48rem;
+                                    }
+                                }
+                                .addOrReduce{
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: .4rem;
+                                    display: flex;
+                                    width: 3.2rem;
+                                    .ant-btn{
+                                        width: .6rem;
+                                        height: 0.85rem;
+                                        line-height: 0.85rem;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                }
+                            }
+                        }
+                       .item_price_num{
+                            width: 2rem;
+                            text-align: right;
+                            height: 2.21333rem;
+                            margin-bottom: .16rem;
+                            .item_price{
+                                font-size: .4rem;
+                                color: #ff6692;
+                            }
+                            .item_num{
+                                margin-top: .2rem;
+                                font-size: .8em;
+                                color: #a3a2a2;
+                            }
+                       }
+                    }
+                }
+            }
+        }
+    }
+
+    //智能推荐商品
+    .recommendListWrap{
+        padding-bottom: .4rem;
+        background: #f4f4f4;
+        margin-bottom: 2.33333rem;
+        .recommendListTitle{
+            padding-left: .4rem;
+            padding-top: .4rem;
+            padding-bottom: .13333rem;
+            font-size: .50667rem;
+            font-weight: 700;
+            background-color: #fff;
+        }
+        .recommendList{
+            display: flex;
+            flex-flow: row wrap;
+            display: -ms-flexbox;
+            -ms-flex-wrap: wrap;
+            background-color: #fff;
+            padding: 0 .26667rem 0.4rem;
+            box-sizing: border-box;
+            .recommend_item:nth-child(odd) {
+                margin-right: .26667rem;
+            }
+            .recommend_item{
+                width: 50%;
+                margin-top: .26667rem;
+                padding-bottom: .4rem;
+                width: 4.6rem;
+                border: .01333rem solid #f4f4f4;
+                box-sizing: border-box;
+                img{
+                    width: 100%;
+                }
+                .item_promotions{
+                    display: -ms-flexbox;
+                    display: flex;
+                    padding: 0 .26667rem;
+                    min-height: .4rem;
+                    .promotion{
+                        margin-right: .06667rem;
+                        height: .37333rem;
+                        padding:0 .06667rem;
+                        line-height: .37333rem;
+                        font-size: .29333rem;
+                        color: #fff;
+                        background-color: #ff6692;
+                        border-radius: .05333rem;
+                    }
+                }
+                .item_name{
+                    margin-bottom: .13333rem;
+                    margin-top: .13333rem;
+                     padding: 0 .26667rem;
+                    font-size: .37333rem;
+                    line-height: .66667rem;
+                    min-height: 1.06667rem;
+                    // display: -webkit-box;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    // -webkit-box-orient: vertical;
+                    // -webkit-line-clamp: 2;
+                }
+                .item_price_cart{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 .26667rem;
+                    font-size: .45333rem;
+                    .item_price{
+                        padding-left: .26667rem;
+                        color: #ff6692;
+                    }
+                    .item_cartBtn{
+                        width: .56rem;
+                        height: .56rem;
+                        border: 1px solid #ff6692;
+                        color: #fff;
+                        background: #ff6692;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    //底部结算栏
+    .cart_footor{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 1.33333rem;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        .cart_footor_left{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            padding: 0 .26667rem;
+            box-sizing: border-box;
+            .checkbox_wrap{
+                height: 1.33333rem;
+                display: flex;
+                justify-content: center;
+                .ant-checkbox-wrapper{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items:center;
+                    font-size: .32rem;
+                    color: #919090;
+                    .ant-checkbox{
+                        .ant-checkbox-inner {
+                            display: block;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 50%;
+                            border: 1px solid #919090;
+                            //点中全选时显示下面的:
+                            // border: 1px solid #3DCEC0;
+                            // background-color: #3DCEC0;
+                            -webkit-transition: all 0.3s;
+                            transition: all 0.3s;
+                            color: #fff;
+                            border-collapse: separate;
+                        }
+                    }
+                }
+            }
+            .total_price_wrap{
+                font-size: .4rem;
+                display: flex;
+                align-items: center;
+                height: 1.13333rem;
+                line-height: 1.13333rem;
+                .total_price{
+                    color: #ff6692;
+                    padding-left: .23333rem;
+                    .yuan_mark{
+                        font-size: .8em;
+                    }
+                    .total_price_num{
+                        display: inline-block;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+        .cart_account_btn{
+            width: 3.73333rem;
+            height: 1.33333rem;
+            line-height: 1.33333rem;
+            text-align: center;
+            font-size: .42667rem;
+            color: #fff;
+            background-color: #4cd7c0;
+        }
+    }
+}
+#emptyCart{
+    background: #F4F4F4;
+    width: 100%;
+    height: 100%;
+    .cart_empty{
+        .icon_empty img{
+            display: block;
+            width: 2.29333rem;
+            height: 2.92rem;
+            margin: 3.26667rem auto .46667rem;
+        }
+        .tips{
+            font-size: .4rem;
+            color: #dad8d8;
+            text-align: center;
+        }
+        .antBtnWrap{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            .ant-btn{
+                margin-top: 1.13333rem;
+                height: 1.2rem;
+                line-height: 1.2rem;
+                padding-left: .66667rem;
+                padding-right: .66667rem;
+                border-radius: .13333rem;
+                text-align: center;
+                font-size: .4rem;
+                background-color: #ff6692;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+}

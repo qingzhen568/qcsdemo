@@ -1,0 +1,88 @@
+#Privilege{
+    .privilege_title{
+        padding: .46667rem .4rem .53333rem;
+        font-size: .53333rem;
+        font-weight: 700;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .desc{
+            padding-top: .2rem;
+            font-size: .29333rem;
+            color: #919090;
+            font-weight: 400;
+        }
+        img{
+            width: 5.09333rem;
+            height: .53333rem;
+        }
+    }
+    .item_list{
+        padding:0 .4rem;
+        .item{
+            position: relative;
+            padding: .26667rem 0 .33333rem 0;
+            min-height: 4.06667rem;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            .item_left{
+                width: 3.46667rem;
+                height: 3.46667rem;
+                img{
+                    width: 100%;
+                }
+            }
+            .item_right{
+                width: 5.4rem;
+                .item_point{
+                    padding-bottom: .13333rem;
+                    font-size: .4rem;
+                    color: #4a4a4a;
+                    height: 1.4rem;
+                    line-height: 1.4rem;
+                    display: -webkit-box;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 2;
+                }
+                .item_name{
+                    padding-bottom: .26667rem;
+                    font-size: .32rem;
+                    color: #919090;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    word-break: keep-all;
+                    text-overflow: ellipsis;
+                }
+                .item_desc{
+                    height: .86667rem;
+                    margin-bottom: .26667rem;
+                    font-size: .32rem;
+                    color: #919090;
+                    line-height: 1.5;
+                    display: -webkit-box;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 2;
+                }
+                .ant-btn{
+                    position: absolute;
+                    right: 0;
+                    bottom: .33333rem;
+                    width: 1.50667rem;
+                    height: .72rem;
+                    color: #fff;
+                    font-size: .34667rem;
+                    background-color: #ff6692;
+                    border-radius: .08rem;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

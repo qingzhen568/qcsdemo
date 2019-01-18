@@ -1,0 +1,57 @@
+#GroupList{
+    img{
+        width: 100%;
+    }
+    .meetSkinList{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding:0 5px;
+        box-sizing: border-box;
+        .meetSkinItem{
+            width: 32%;
+            margin-bottom: 5px;
+            background: #fff;
+            img{
+                width: 100%;
+            }
+            .meetSkinItemName{
+                display: inline-block;
+                overflow : hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-size: 12px;
+                width: 100%;
+                padding: 5px 8px 0;
+                box-sizing: border-box;
+            }
+            .meetSkinItemFooter{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px;
+                box-sizing: border-box;
+                .ItemPrice{
+                    .min_app_price{
+                        margin-right: 8px;
+                        color: #ff1f32;
+                        font-size: 0.4rem;
+                    }
+                }
+                .shoppingCart{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    background: #FF4479;
+                    color: #fff;
+                    border-radius: 50%;
+                    z-index: 2000;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

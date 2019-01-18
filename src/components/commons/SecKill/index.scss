@@ -1,0 +1,68 @@
+#SecKill{
+    width: 100%;
+    margin-bottom: 12px;
+    .SecKill_title{
+        min-height: 0.42667rem;
+        padding: 0.32rem 0.36667rem 0.16rem;
+        font-size: 0.34rem;
+        line-height: 0.42667rem;
+        box-sizing: border-box;
+        color: #000;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        >div{
+            display: flex;
+            .title{
+                font-weight: bold;
+                margin-right: 12px;
+                font-size: 0.4rem;
+            }
+        }
+    }
+    .goodsWrap{
+        width: 92%;
+        max-height: 4.2rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: flex;
+        background: #fff;
+        overflow-x: scroll;
+        .SecKillList{
+            width: 2000px;
+            max-height: 3.9rem;
+            .SecKillItem{
+                width: 2.6rem;
+                max-height: 4rem;
+                border: 1px solid #ededed;
+                border-radius: 0.1rem;
+                background: #fff;
+                margin-right:6px; 
+                img{
+                    width: 100%;
+                }
+                .SecKill_itemName{
+                    width: 2.6rem;
+                    padding:0 8px ;
+                    box-sizing: border-box;
+                    overflow : hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 12px;
+                }
+                p {
+                    padding: 0 8px;
+                    box-sizing: border-box;
+                    .promotion_price{
+                        color: #fc487b;
+                        margin-right: 0.2rem;
+                        font-size: 0.347rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    
+}

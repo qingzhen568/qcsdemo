@@ -1,0 +1,25 @@
+#mainHeader{
+    .bigBG img{
+        width: 100%;
+    }
+    .fourNavGif{
+        width: 100%;
+        display: flex;
+        .fourGifWrap{
+            width: 25%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .luckMoneyGif{
+        width: 100%;
+        display: flex;
+        .luckMoneyGifWrap{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

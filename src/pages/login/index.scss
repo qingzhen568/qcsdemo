@@ -1,0 +1,104 @@
+#LogIn{
+    .form{
+        width: 100%;
+        height: 8rem;
+        // display: flex;
+        // flex-flow: column;
+        // justify-content: space-around;
+        // align-items: center;
+        // margin: 0 auto;
+        padding: .8rem;
+       p{   
+            width: 100%;
+            display: flex;
+            align-items: center;
+            
+            &:nth-of-type(1){
+                font-size: .34667rem;
+                color: #919090;
+                height: .4rem;
+                line-height: .4rem;
+                margin-bottom: 0.1rem;
+            }
+            &:nth-of-type(2){
+                margin-bottom: 0.5rem;
+                .ant-input{
+                    width: 10rem;
+                    height: 1.254rem;
+                    justify-content: center;
+                    padding: .4rem;
+                    border-radius: .13333rem;
+                    color: #4a4a4a;
+                    font-size: .4rem;
+                    background-color: #fcfcfc;
+                    border: 1px solid #dad8d8;
+                    box-sizing: border-box;
+                    outline: none;
+                   
+                }
+            }
+            &:nth-of-type(3){
+                justify-content: space-between;
+                margin-bottom: 0.5rem;
+                .ant-input{
+                    width: 5rem;
+                    height: 1.254rem;
+                    justify-content: center;
+                    padding: .4rem;
+                    border-radius: .13333rem;
+                    color: #4a4a4a;
+                    font-size: .4rem;
+                    background-color: #fcfcfc;
+                    border: 1px solid #dad8d8;
+                    box-sizing: border-box;
+                    outline: none;
+                }
+                .ant-btn{
+                    width: 3rem;
+                    height: 1.2rem;
+                    line-height: 1.2rem;
+                    padding-left: .66667rem;
+                    padding-right: .66667rem;
+                    border-radius: .13333rem;
+                    text-align: center;
+                    font-size: .4rem;
+                    background-color: #ff6692;
+                    color: #fff;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            &:nth-of-type(4){
+                color: #ff6692;
+                font-size: 0.32rem;;
+            }
+            &:nth-of-type(5){
+                font-size: .37333rem;
+                margin-top: .53333rem;
+            }
+
+            &:nth-of-type(6){
+                margin: .8rem auto 0;
+                width: 5.25333rem;
+                border-radius: 1.6rem;
+                background-color: #fff;
+                justify-content: center;
+                .loginBtn{
+                    width: 5.25333rem;
+                    height: 1.2rem;
+                    line-height: 1.2rem;
+                    padding-left: .66667rem;
+                    padding-right: .66667rem;
+                    border-radius: .13333rem;
+                    text-align: center;
+                    font-size: .4rem;
+                    background-color: #ff6692;
+                    color: #fff;
+                    border: none;
+                }
+            }
+        }
+
+    }
+}

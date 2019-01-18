@@ -1,0 +1,31 @@
+#recommendWrap{
+    margin-top: -80px;
+    .recommend_title img{
+        width: 100%;
+    }
+    #recommend{
+        .recommendItem{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #footerSix{
+        display: flex;
+        flex-flow: row wrap;
+        .footerSixItem{
+            width: 50%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .copyright{
+        padding-top: .66667rem;
+        padding-bottom: .66667rem;
+        text-align: center;
+        color: #919090;
+        font-size: .32rem;
+    }
+}

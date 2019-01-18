@@ -1,0 +1,25 @@
+.cart{
+    margin-top:-84px;
+    .cart_title{ font-size: 20px; text-align: center;height:40px; line-height: 40px; border-bottom:1px solid #ccc;}
+    .cart_content{
+        ul{
+            li{
+                img{width: 80px; height: auto;}
+            }
+        }
+        .cart-tishi{
+            background: #eee;
+            text-align: center;
+            padding-top:80px;
+            padding-bottom:20px;
+            color: #ccc;
+            div{margin-top: 30px;margin-bottom: 20px;
+                img{width: 25%;}
+                .cart_btn{background-color: #ff6692;    border-color: #ff6692;}
+            }
+            
+        }    
+    }
+    
+
+}
