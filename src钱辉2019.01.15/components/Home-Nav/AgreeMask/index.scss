@@ -1,0 +1,18 @@
+.ant-modal {
+    height: 48%;
+    .ant-modal-content {
+        width: 90%;
+        height: 100%;
+        margin:auto;
+    }
+}   
+.ant-modal-close-x{
+    top: 9rem;
+    left: -5rem;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+.ant-modal-body {
+    padding: 0;
+}

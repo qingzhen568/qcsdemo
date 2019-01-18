@@ -1,0 +1,57 @@
+.recommend {
+    width: 100%;
+    height: 6rem;
+    background: white;
+    .recommendHead {
+        width: 100%;
+        padding-left: .4rem;
+        padding-top: .4rem;
+        padding-bottom: .13333rem;
+        font-size: .37333rem;
+    }
+    .recommendContainer {
+        width: 100%;
+        height: 5rem;
+        overflow-x: scroll;
+        .recommendList {
+            width: 685%;
+            height: 100%;
+            margin: 0 0 0 .3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: center;
+            .recommendItem {
+                width: 100%;
+                margin: .3rem .3rem 0 0;
+                .recommendItemImg {
+                    width: 100%;
+                    height: auto;
+                    img {
+                        width: 73.66px;
+                    }
+                }
+                .recommendItemName {
+                    width: 100%;
+                    height: 1.3rem;
+                    padding: .2rem 0 .3rem 0;
+                    font-size: 13px;
+                    color: black;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+                .recommendItemPrice {
+                    width: 100%;
+                    height: 22px;
+                    line-height: 22px;
+                    font-size: 14px;
+                    color: #FF6692;
+                    padding-left: .3rem; 
+                }
+            }
+        }
+    }
+}

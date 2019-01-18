@@ -1,0 +1,116 @@
+.seckill {
+    // background: url('https://image.watsons.com.cn//upload/e2f98437.jpg') no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 5.8rem;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .time {
+        width: 90%;
+        padding: 2% 0;
+        height: 1rem;
+        display: flex;
+        color: rgb(31, 29, 29);
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        >div:nth-child(2){
+            text-align: right;
+            flex: 2;
+        }
+        .Timeout {
+            flex: 3;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            >span:nth-child(1){
+                margin-right: 10%;
+            }
+        }
+    }
+    .seckillContainer {
+        width: 95%;
+        box-sizing: border-box;
+        padding:0 2% 2% 2%;
+        overflow-y: scroll;
+        .seckillList {
+            width: 246%;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .seckillItem {
+                width: 97px !important;
+                height: 151px;
+                background: white;
+                margin: 0 4px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+                >div:nth-child(1){
+                    margin: auto;
+                    width: 90px;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 90px;
+                    }
+                }
+                .seckillTitle {
+                    width: 100%;
+                    font-size: 13px;
+                    box-sizing: border-box;
+                    padding: 0 5%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-content: center;
+                    .seckillItemTitle {
+                        display: inline-block;
+                        width: 100%;
+                        height: 22px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: horizontal;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        
+                    }
+                    .ccc:after{
+                        display: inline;
+                        content: "...";
+                        font-size: 16px;
+                    }
+                }
+                .itemPrice {
+                    width: 85%;
+                    margin: 0 auto;
+                    font-size: 13px;
+                    font-weight: 600;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    span:nth-child(1) {
+                        color: rgb(241, 112, 134);
+                    }
+                    span:nth-child(2){
+                        text-decoration: line-through;
+                        color: rgb(150, 142, 142);
+                    }
+                }
+            }
+        }
+    }
+}

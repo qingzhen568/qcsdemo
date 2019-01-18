@@ -1,0 +1,98 @@
+#searchBar {
+    width: 100%;
+    height:1.1rem;
+    box-sizing: border-box;
+    padding: 0 5%;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .searchInput {
+        outline: 0;
+        border: none;
+        margin:0 4%;
+        .ant-input {
+            outline: 0;
+            border-radius: 20px;
+            padding-left: 45px;
+        }
+    }
+    .searchImg,.shoppingCartImg {
+        width: 8%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+    }
+
+}
+.ant-input-affix-wrapper .ant-input:focus {
+    border: none;
+    border: 1px solid #cccccc!important;
+    box-shadow: none;
+}
+.ant-drawer-content-wrapper {
+   width: 100% !important;
+}
+.ant-drawer-body {
+    padding: 0;
+}
+.searchPage-input{
+    width: 100%;
+    padding: .26667rem .6rem .26667rem .4rem;
+    display: flex;
+    flex-direction: row;
+    >.ant-input-affix-wrapper {
+        flex: 8;
+        border-radius: 16px;
+    }
+    .searchInput {
+        outline: 0;
+        border: none;
+        margin:0 4%;
+        .ant-input {
+            outline: 0;
+            background: #eeeded;
+            border-radius: 20px;
+            padding-left: 45px;
+        }
+    }
+    >span:nth-child(2) {
+        flex: 1;
+        text-align: center;
+        line-height: 32px;
+        font-size: 16px;
+    }
+}
+.hotSearch {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 40px;
+    padding-left: 0.4rem; 
+}
+.searchList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    li {
+        width: 20%;
+        height: 32px;
+        margin:0  5% 5% 0;
+        line-height: 32px;
+        border-radius: 6px;
+        text-align: center;
+        background: #eceaea;
+    }
+}
+.searchActive {
+    background-color: #ffe5ec;
+    color: #ff6b91;
+}

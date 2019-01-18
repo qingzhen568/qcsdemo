@@ -1,0 +1,43 @@
+.itemDetialData {
+    width: 100%;
+    background: white;
+    .itemDetialcoupon {
+        width: 100%;    
+        padding-left: .4rem;
+        padding-right: .4rem;
+        padding-top: .32rem;
+        padding-bottom: .32rem;
+        font-size: .37333rem;
+        color: #919090;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       >li>img {
+            width: 20%;
+        }
+    }
+    .itemCouponWrap {
+        width: 9rem;
+        margin: 0 .4rem;
+        height: 1.17333rem; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .itemCouponWrap-item {
+            width: 21%;
+            height: 36%;
+            color: #FF4479;
+            text-align: center;
+            line-height: 16px;
+            background: url('https://image.watsons.com.cn//upload/aee7b889.png') 50% no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+ul{
+    margin: 0;
+}

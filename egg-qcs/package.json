@@ -1,0 +1,52 @@
+{
+  "name": "ele-server",
+  "version": "1.0.0",
+  "description": "was a test server",
+  "private": true,
+  "dependencies": {
+    "egg": "^2.2.1",
+    "egg-cors": "^2.1.2",
+    "egg-mongo-native": "^3.3.0",
+    "egg-mongodb": "^1.1.1",
+    "egg-scripts": "^2.5.0",
+    "egg-session": "^3.1.0",
+    "jsonwebtoken": "^8.4.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "axios": "^0.18.0",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^6.0.0",
+    "jsonp": "^0.2.1",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-ele-server",
+    "stop": "egg-scripts stop --title=egg-server-ele-server",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "laura",
+  "license": "MIT"
+}

@@ -1,0 +1,45 @@
+.indent {
+    width: 100%;
+    height: auto;
+    background: white;
+    .indentTop {
+        margin: 0 2%;
+        width: 9.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 1.33333rem;
+        line-height: 1.33333rem;
+        color: #4a4a4a;
+        font-size: .37333rem;
+        border-bottom: 1px solid #EEEEEE;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 6%;
+            transform: rotate(90deg);
+        }
+    }
+    .indentCheck {
+        width: 100%;
+        height: 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .indentCheckItem {
+            padding-top: .4rem;
+            color: #919090;
+            text-align: center;
+            height: 2.26667rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            >img {
+                width: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.timer {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    span {
+        display: inline-block;
+        width: 20px;
+        height: 16px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        background: black;
+        color: white;
+    }
+}

@@ -1,0 +1,13 @@
+#footNav {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    li {
+        width: 187.5px;
+        img {
+            width: 100%;
+        }
+    }
+}

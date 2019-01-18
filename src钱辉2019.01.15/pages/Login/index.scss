@@ -1,0 +1,79 @@
+#login {
+    width: 100%;
+    height: 100%;
+    .loginTitle {
+        width: 100%;
+        height: 1.2rem;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        line-height: 1.2rem;
+        font-size: 0.48rem;
+        justify-content: space-between;
+        align-items: center;
+        >span:nth-child(1){
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 20%;
+            }
+        }
+        >span:nth-child(2){
+            flex: 5;
+            width: 100%;
+            height: 100%;
+            margin-right: 10%;
+            text-align: center;
+        }
+    }
+    .loginForm {
+        width: 100%;
+        height: 60%;
+        padding: 0.8rem;
+        margin: auto;
+        .smsCode {
+            width: 50%;
+        }
+        .tips {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            color: red;
+        }
+    }
+}
+.loginInput,.smsCode,.ant-btn {
+    height: 48px;
+    outline: none;
+}
+.ant-btn {
+    border: none;
+    background: #FF6692;
+}
+.smsCodeInput {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.submit {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    border-radius: 24px;
+    .submit-btn {
+        width: 100%;    
+        border: none;
+        border-radius: 24px;
+    }
+}
+.ant-btn-primary:hover {
+    background: #FF6692;
+}

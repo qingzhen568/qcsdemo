@@ -1,0 +1,149 @@
+
+.itemDetialContent {
+    width: 100%;
+    height: 92%;
+    background: #F4F4F4;
+    overflow-y: scroll;
+    .listTitle {
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        width: 100%;
+        height: 44px;
+        background: white;
+        border-bottom:  1px solid #eeebeb;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        >span {
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 50%;
+            }
+        }
+        span:nth-child(1){
+            flex: 1;
+        }
+        span:nth-child(2){
+            flex: 5;
+            margin-right: 14%;
+            font-weight: 500;
+        }
+        .itemDetial-Title {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+    .itemDetialNav {
+        width: 100%;
+        height: 50px;
+        padding: 4% 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        >li {
+            width: 100%;
+            height: 100%;
+            margin: 3%;
+            border-radius: 15%;
+            background: #C8C7C7;
+        }
+    }
+    .itemDetial {
+        width: 100%;
+        .itemDetialImg {
+            width: 100%;
+        }
+        .itemDetialTime {
+            width: 100%;
+            height: 45px;
+            background: #FD6A6A;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .itemDetialTime-intro {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                >span:nth-child(1) {
+                    display: inline-block;
+                    margin-right: .13333rem;
+                    // padding-left: .4rem;
+                    // padding-right: .4rem;
+                    width: 100%;
+                    height: .82667rem;
+                    line-height: .82667rem;
+                    color: #fd6a6a;
+                    background-color: #fff;
+                    border-radius: .41333rem;
+                    text-align: center;
+                }
+                >span:nth-child(2) {
+                    display: inline-block;
+                    margin-right: .13333rem;
+                    // padding-left: .4rem;
+                    padding-right: .4rem;
+                    width: 100%;
+                    height: .82667rem;
+                    line-height: .82667rem;
+                    color: white;
+                    border-radius: .41333rem;
+                    text-align: center;
+                }
+            }
+        }
+        .itemDetial-detial {
+            padding: .46667rem;
+            background-color: #fff;
+            text-align: left;
+            .itemDetial-sale_point {
+                width: 100%;
+                font-size: .42667rem;
+                font-weight: 700;
+            }
+            .itemDetial-name {
+                padding: .33333rem 0;
+                font-size: .34667rem;
+                color: #4a4a4a;
+                line-height: .53333rem;
+            }
+            .itemDetial-price {
+                width: 100%;
+                height: 22px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: baseline;
+                >span {
+                    display: inline-block;
+                }
+                >span:nth-child(1){
+                    font-size: .50667rem;
+                    color: #4a4a4a;
+                    .itemDetial-price-icon {
+                        font-size: .3rem;
+                    }
+                }
+                >span:nth-child(2){
+                    font-size: .35rem;
+                    color: #ada7a7;
+                    margin-left: 2%;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+﻿1.我在家
+https://m.wozaijia.com/home
+
+2.领袖户外网
+http://m.kllife.com/
+
+3.每日优鲜
+https://as-vip.missfresh.cn/ug/index.html?fromSource=zhuye
+
+4.屈臣氏官方商城
+https://h5.watsons.com.cn/?from=pc
+
+
+扫空全球大牌尖货下面的大背景图
+https://image.watsons.com.cn//upload/a6ac7d87.jpg
+
+各国最值得买榜和全品类嗨购狂欢下面的大背景图
+https://image.watsons.com.cn//upload/84505a29.jpg
+
+
+https://h5.watsons.com.cn/aladdin/get_batch_data?codes=[%22new_header%22,%22new_Home_topBig_forcase_180105_1%22,%22new_Home_4navs_180105_1%22,%22new_Home_coupon_180105_4%22,%22Home_pingo_170505_5%22,%22Home_AboveTopic_activity_170505_7%22,%22Home_TopicCase_170505_7%22,%22Home_CategaryNavs_170505_7%22]&version=&app_channel=wap&plat=wap&access_token=&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+页尾的面膜热卖、面部护理、身体护理等的数据：  Home_CategaryNavs_170505_7
+页尾倒数第二部分 从“超值一元购”到“冬日萌物合集”数据： Home_TopicCase_170505_7
+头部四个导航入口，闪电送、会员专区、免费试用、签到： new_Home_4navs_180105_1
+头部 180新人专属礼包、新人专享： new_Home_coupon_180105_4
+
+#头部:跨年盛典:
+头部背景图:
+https://h5.watsons.com.cn/topic/data/T20181229095710968?device_id=b2beebb0-0e2b-11e9-9cde-fb9ddcb01ef6
+
+#跨年盛典&红包&新人专享图片数据:
+https://h5.watsons.com.cn/aladdin/get_batch_data?codes=[%22new_header%22,%22new_Home_4navs_180105_1%22,%22new_Home_coupon_180105_4%22,%22Home_pingo_170505_5%22,%22Home_AboveTopic_activity_170505_7%22,%22Home_TopicCase_170505_7%22,%22Home_CategaryNavs_170505_7%22]&version=&app_channel=wap&plat=wap&access_token=&device_id=c025fac0-0d75-11e9-a3fd-318d2f36e54f
+跨年盛典四张图fourNavGif: resp.data.data.new_Home_4navs_180105_1.datas,
+红包:luckMoneyGif: resp.data.data.new_Home_coupon_180105_4.datas
+
+限时秒杀背景图：
+https://image.watsons.com.cn//upload/20af728d.png
+更多好货按钮
+https://image.watsons.com.cn//upload/fd4236d2.png
+限时秒杀数据：
+https://h5.watsons.com.cn/activity/specials/info?count=10&code=Home_flashSale__Top_Img&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+
+畅销面膜：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11699&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+大牌护肤：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11700&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+
+洗护尖货：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11701&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+潮流彩妆：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11702&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+海淘直邮：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11703&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+一件包邮：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=11704&device_id=f1d14a20-f2a9-11e8-a875-37faf221753e
+
+
+列表页，上拉加载更多：
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=8811
+
+
+ {/* 大牌精选 好货推荐 */} resp.data.data.Home_TopicCase_170505_7.datas
+ aladdin/get_batch_data?codes=["new_header","new_Home_topBig_forcase_180105_1","new_Home_4navs_180105_1","new_Home_coupon_180105_4","Home_pingo_170505_5","Home_AboveTopic_activity_170505_7","Home_TopicCase_170505_7","Home_CategaryNavs_170505_7"]&version=&app_channel=wap&plat=wap&access_token=&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+ 
+ #新年新"肌"遇 :(5条数据从上到下对应页面顺序)
+ https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=12780&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=12781&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=12543&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=12545&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+
+https://h5.watsons.com.cn/item/ws/group_list?current_page=1&page_size=24&group_id=12782&device_id=aaafc600-0e8b-11e9-8d8c-f108b9b519de
+
+单图:https://h5.watsons.com.cn/topic/data/T20181229094234589?device_id=d20acfd0-0e2a-11e9-9d35-cb09ba619306
+
+
+
+5.only
+
+https://m.only.cn/
+
+6.veromoda
+https://m.veromoda.com.cn/
+
+7.sasa
+
+http://www.sasa.com/wap/
+
