@@ -6,12 +6,20 @@ import 'swiper/dist/css/swiper.min.css'
 import './index.scss'
 
 export default class MySwiper extends Component{
+    // 使用轮播插件Swiper遇到的问题：
+    //  1.使用 swiper的  4.0+版本时，无法自动轮播 ,安装 npm i -s swiper@3.4.2 版本
+    //  2.用3.4.2版本时,手动拖拽不能轮播,因为请求图片数据是异步处理的,需要设置observer:true,  observerParents:true,
+    //  3.第一幅图片一闪而过问题,使用延时器解决,
+    //4.点击后无法自动轮播问题: autoplayDisableOnI autoplayDisableOnInteraction:false, 
+    //  4.一个页面有多个轮播图存在时的bug 
+    //  5.注意: className中的 "swiper-container" | "swiper-wrapper" | "swiper-slide" 这些名称是固定的不能更改
     componentDidMount(){
         new Swiper('.swiper-container',{
             loop:true,
             autoplay:1000,
             observer:true,  //observer:true, observeParents:true,设置异步获取图片数据, 解决无法拖动图片Bug,
             observeParents:true,
+            autoplayDisableOnInteraction:false, 
             pagination : '.swiper-pagination',  //分页器
             prevButton:'.swiper-button-prev',   //前后按钮
             nextButton:'.swiper-button-next',

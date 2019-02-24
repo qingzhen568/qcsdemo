@@ -6,13 +6,13 @@ import './index.scss'
 class SecKill extends Component {
     constructor(){
         super();
-        this.timer=null;
         this.state={
             SecKillData:[],
             timeStamp:[],
             Hour:0,
             Minute:0,
-            Second:0
+            Second:0,
+            timer:null
         }
     }
     
@@ -29,13 +29,7 @@ class SecKill extends Component {
             this.CountDownFunc(this.state.timeStamp);
         })
     }
-    // 组件卸载时清除定时器
-    componentWillUnmount(){
-        this.setState=(state,callback)=>{
-            return
-        }
-        clearInterval(this.timer)
-    }
+    
    //设置定时器,时间递减
    CountDownFunc = (time)=>{
         let nowTime = new Date().getTime();
@@ -63,6 +57,13 @@ class SecKill extends Component {
                 return;
             }
         },1000)
+    }
+    // 组件卸载时清除定时器
+    componentWillUnmount(){
+        this.setState=(state,callback)=>{
+            return
+        }
+        clearInterval(this.timer)
     }
 
     render(){

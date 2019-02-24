@@ -123,14 +123,14 @@ class Header extends Component{
                     </div>
                     
                     {/* 顶部四大导航栏 */}
-                    <nav className="topNavTabs">
+                    <div className="topNavTabs">
                         <ul>
                             <li><NavLink to="/" exact activeClassName="active">今日推荐</NavLink></li>
                             <li><NavLink to="/mask" activeClassName="active">面膜中心</NavLink></li>
                             <li><NavLink to="/life" activeClassName="active">居家生活</NavLink></li>
                             <li><NavLink to="/global" activeClassName="active">购全球</NavLink></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>:''
             }</div>
         )
